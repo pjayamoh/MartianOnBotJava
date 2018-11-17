@@ -72,11 +72,10 @@ public class MartianTeleOp extends LinearOpMode {
     private double dblSpeedMultiplier = 0.5;  
     private double dblTurnSpeed = 0.5;
 
-
     @Override
     public void runOpMode() {
         
-        motorRearRight = hardwareMap.get(DcMotor.class, "motorRearRight");
+        motorRearRight = hardwareMap.get(DcMotor.class, "motorRearRight1");
         motorRearLeft = hardwareMap.get(DcMotor.class, "motorRearLeft");
         motorFrontRight = hardwareMap.get(DcMotor.class, "motorFrontRight");
         motorFrontLeft = hardwareMap.get(DcMotor.class, "motorFrontLeft");
